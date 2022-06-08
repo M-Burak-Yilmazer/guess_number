@@ -31,12 +31,12 @@ p {
   font-weight: 600;
 }
 header {
-    height:50vh;
+  height: 50vh;
   position: relative;
 }
-main{
-    height:50vh;
-     display: flex;
+main {
+  height: 50vh;
+  display: flex;
   align-items: center;
   justify-content: space-around;
 }
@@ -44,26 +44,26 @@ main{
   position: absolute;
   left: 5rem;
   top: 5rem;
-  width:6rem;
-  height:3rem;
-  padding:auto;
+  width: 6rem;
+  height: 3rem;
+  padding: auto;
   font-size: 1.3rem;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  background-color:darkorange;
-  border:none;
-  border-radius:10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: darkorange;
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
 }
-.container{
-   width: 52rem;
+.container {
+  width: 52rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.between{
- font-size: 1rem;
+.between {
+  font-size: 1rem;
   position: absolute;
-  top: ;
+  top: 100px;
   right: 40%;
 }
 .input {
@@ -73,7 +73,7 @@ main{
   color: inherit;
   font-size: 3rem;
   padding: 1rem;
- width:10rem;
+  width: 10rem;
   text-align: center;
   /* display: block; */
   margin-bottom: rem;
@@ -95,27 +95,27 @@ h1 {
   font-family: inherit;
   padding: 1rem;
   cursor: pointer;
-  margin-bottom: 0.5rem;;
+  margin-bottom: 0.5rem;
 }
 .btn:hover {
   background-color: purple;
-  color:white;
+  color: white;
 }
 
 .content {
   margin-bottom: 2rem;
   height: 3rem;
 }
-label{
-    font-size: 1.3rem;
+label {
+  font-size: 1.3rem;
 }
 
-.para { 
-     width: 52rem;
+.para {
+  width: 52rem;
   font-size: 1.5rem;
 }
 
-@media (min-width:600px) {
+/* @media (min-width:600px) {
     body{
         font-size:1rem;
     }
@@ -128,4 +128,4 @@ label{
     h1{
         10px;
     }
-} 
+}  */
