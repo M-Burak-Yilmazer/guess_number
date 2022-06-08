@@ -6,6 +6,7 @@ let checkBtn = document.querySelector(".check");
 let input = document.querySelector(".input");
 let gRight = document.querySelector(".right");
 let btnAgain = document.querySelector(".again");
+ 
 
 const displayMessage = function (message, selector) {
   document.querySelector(selector).textContent = message;
@@ -48,7 +49,13 @@ checkBtn.onclick = function () {
 
 btnAgain.addEventListener("click", () => {
   window.location.reload();
-});
+}); 
+
+ //* focus özelliği eklendi*/ 
+
+window.onload = () => {  
+  input.focus();
+};
 
 // btnAgain.addEventListener("click", function () {
 //   lowScore.innerHTML = 1;
